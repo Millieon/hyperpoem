@@ -20,6 +20,14 @@ p{
     padding-top: 100px;
 }
 
+
+.clock{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+}
+
 /* When giving a child element position absolute you should give the parent position value as well */
 /* The child will then be positioned absolute in realtion to the box container of the parent */
 /* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
@@ -33,14 +41,25 @@ p{
     position: absolute;
 }
 .title a.forking{
-    left: 66%;
+    left: 78%;
     top: -20px;
     rotate: -18deg;
 }
 .title a.paths{
     left: 78%;
     top: 30px;
-    rotate: 22deg;
+    rotate: 28deg;
+}
+
+.title a.bored{
+    left: 68%;
+    top: 30px;
+    rotate: 28deg;
+}
+.title a.boredd{
+    left: 60%;
+    top: 40px;
+    rotate: 80deg;
 }
 
 a.dead-link:hover{
