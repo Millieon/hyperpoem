@@ -61,11 +61,76 @@ p{
     top: 40px;
     rotate: 80deg;
 }
+.title a.boredbored{
+    left: 48%;
+    top: 40px;
+    rotate: -60deg;
+}
+
+/* a.dead-link:hover{
+    opacity: 0;
+} */
 
 a.dead-link:hover{
     opacity: 0;
+}
+a.dead-link:hover .tooltiptext{
+    visibility: visible;
+}
+a.dead-link{
+    position: relative;
+    display: inline-block;
+   
+}
+
+
+a.dead-link .tooltiptext{
+
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(0,0,0);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
 }
 
 span#ghost{
     opacity: 0.4;
 }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; 
+    
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:rgb(255,255,255);
+    color: rgb(210, 49, 151);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip:hover {
+    visibility: collapse;
+  }
